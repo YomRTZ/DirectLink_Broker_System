@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2016",                                /* Use modern JavaScript features. */
+    "module": "CommonJS",                              /* CommonJS for Node.js compatibility. */
+    "esModuleInterop": true,                           /* Ensure compatibility with CommonJS imports. */
+    "forceConsistentCasingInFileNames": true,          /* Ensure consistent casing in file imports. */
+    "strict": true,                                    /* Enable all strict type-checking options. */
+    "skipLibCheck": true,                              /* Skip type checking for declaration files. */
+    
+    /* JavaScript Interop */
+    "allowJs": true,                                   /* Allow JavaScript files in the project. */
+    "checkJs": false,                                  /* Disable type-checking for JavaScript files. */
+
+    /* Emit Options */
+    "outDir": "./dist",                                /* Output directory for compiled files. */
+    "removeComments": true,                            /* Remove comments in the emitted files. */
+
+    /* Type Checking */
+    "noImplicitAny": true,                             /* Catch variables and parameters without types. */
+    "strictNullChecks": true,                          /* Handle `null` and `undefined` strictly. */
+
+    /* Modules */
+    "moduleResolution": "node",                        /* Resolve modules as Node.js would. */
+    "baseUrl": ".",                                    /* Resolve non-relative module imports. */
+    "paths": {                                         /* Map paths for cleaner imports. */
+      "@/*": ["src/*"]
+    },
+
+    /* Include Source Maps */
+    "sourceMap": true                                  /* Enable source maps for debugging. */
+  },
+  "include": [
+    "src/**/*"                                         /* Include all TypeScript files in src. */
+  ],
+  "exclude": [
+    "node_modules",                                    /* Exclude dependencies. */
+    "dist"                                             /* Exclude build output. */
+  ]
+}

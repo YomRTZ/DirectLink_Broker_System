@@ -1,0 +1,3 @@
+set rent status on the property b/c it protect more than one person can rent one property
+set success, pending and new status on leaseagreement based on this we can open the property, tenant and owner profile and lease agrement to update
+otherwise those are didnt change and delete 

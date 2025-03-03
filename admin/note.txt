@@ -1,0 +1,8 @@
+admin get the leaseagrement and all the data about property,tenant, owners data 
+and there is a button at the bottom of the leaseagrement which is success and pending then the admin see or check all the 
+data and if they are valid check success and store to the database then we set the validation check at this 
+only the admin set to the database the status of the leasagreement is success if it is pending he/she didnt store to the database
+at the same time they can send email to all the tenant and owner and based on the status they give pending,
+success , and new the system can fetch and display onlye the pending and new leaseagreemnt data so that status also update 
+at our database also and only and  only the owner and tenant can update there profile only the sataus of the leaseagreemnt
+is pending . so we check if the lease status is pending or not so if it is pending they can update there profile data.
