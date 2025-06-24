@@ -36,5 +36,5 @@ app.use("/api/review", reviewRoutes);
 app.use('/images', express.static(path.join(__dirname, 'public', 'images')));
 app.use("/api/filter",filterRoutes);
 app.use('/api/email', emailRoutes);
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
